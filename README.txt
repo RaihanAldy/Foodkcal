@@ -1,17 +1,14 @@
-
 # 🍎 FoodKcal - Food Detection & Calorie Estimation
 
 <div align="center">
 
-![Machine Learning](https://img.shields.io/badge/🤖-Machine%20Learning-FF6B6B?style=for-the-badge)
-![Mask R-CNN](https://img.shields.io/badge/🧠-Mask%20R--CNN-8A2BE2?style=for-the-badge)
-![Telegram Bot](https://img.shields.io/badge/🤖-Telegram%20Bot-26A5E4?style=for-the-badge)
-![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)
+**🤖 Machine Learning • 🧠 Mask R-CNN • 🤖 Telegram Bot • 🐍 Python 3.8+**
 
-**Advanced Food Detection & Calorie Estimation System using Mask R-CNN & Telegram Integration**
+## Advanced Food Detection & Calorie Estimation System  
+### Using Mask R-CNN & Telegram Integration
 
-[![Research Paper](https://img.shields.io/badge/📄-Research_Paper-BD1E2A?style=for-the-badge&logo=googlescholar)](https://jurnal.stkippgritulungagung.ac.id/index.php/jipi/article/view/6972)
-[![Demo Video](https://img.shields.io/badge/🎬-Demo_Video-FF0000?style=for-the-badge&logo=youtube)](https://drive.google.com/file/d/178Qp-PEZ_xv9tHlTmofrHXwsauoc7PJI/view)
+[📄 Research Paper](https://jurnal.stkippgritulungagung.ac.id/index.php/jipi/article/view/6972) • 
+[🎬 Demo Video](https://drive.google.com/file/d/178Qp-PEZ_xv9tHlTmofrHXwsauoc7PJI/view)
 
 *"Revolutionizing dietary monitoring through computer vision and AI"*
 
@@ -38,26 +35,25 @@ FoodKcal is an innovative AI-powered system that combines **Mask R-CNN architect
 ## 🏗️ System Architecture
 
 ```
-User Upload → Telegram Bot → Image Preprocessing → Mask R-CNN Model 
-→ Food Detection → Portion Estimation → Calorie Calculation → Bot Response
+📱 User Upload → 🤖 Telegram Bot → 🖼️ Image Preprocessing → 🧠 Mask R-CNN Model 
+→ 🍎 Food Detection → 📐 Portion Estimation → 🔥 Calorie Calculation → 💬 Bot Response
 ```
 
-## 🎯 Model Performance
+## 📊 Model Performance
 
-### 📈 Evaluation Metrics
-- **mAP**: 85.7% (Mean Average Precision)
-- **Detection Accuracy**: 87.3% 
-- **Segmentation IoU**: 82.1%
-- **Calorie Estimation Error**: ±12%
+| Metric | Score | Description |
+|--------|-------|-------------|
+| **mAP** | 85.7% | Mean Average Precision |
+| **Detection Accuracy** | 87.3% | Food Item Recognition |
+| **Segmentation IoU** | 82.1% | Boundary Accuracy |
+| **Calorie Estimation Error** | ±12% | Nutritional Accuracy |
 
 ## 🚀 Quick Start
 
 ### Prerequisites
-```bash
-Python 3.8+
-TensorFlow 2.8+
-Telegram Bot Token
-```
+- Python 3.8+
+- TensorFlow 2.8+
+- Telegram Bot Token
 
 ### Installation
 
@@ -83,32 +79,64 @@ cp config.example.py config.py
 python telegram_bot/bot_handler.py
 ```
 
-## 📊 Research & Development
+### 🍽️ Usage Example
+1. Start chat with your Telegram Bot
+2. Send food image via chat
+3. Receive analysis within seconds:
+   - 🍎 Detected food items
+   - 📏 Estimated portion sizes  
+   - 🔥 Calculated calories
+   - 📊 Nutritional insights
 
-### 🔬 Model Development Links
+## 📚 Research & Development
 
-| Component | Link | Description |
-|-----------|------|-------------|
-| **Model Training** | [Google Colab](https://colab.research.google.com/drive/1M0wQzKp4csT_8AdALjxguuQWsFwiwEd5) | Complete training pipeline |
-| **Modified Mask R-CNN** | [Drive Folder](https://drive.google.com/drive/folders/1XDxeZSUcTN2f_LPRuG75htul-dfDo0A8) | Custom architecture |
-| **Detection Model** | [Drive Folder](https://drive.google.com/drive/folders/1n7wocurRnNVZ1vsERi6Vi6C46YQ_lsLY) | Trained model weights |
-| **Input Dataset** | [Drive Folder](https://drive.google.com/drive/folders/1c8x9ZgkU7kaPnERfAIK2uPLjntAHyROI) | Model input samples |
-| **Demo Video** | [Recording](https://drive.google.com/file/d/178Qp-PEZ_xv9tHlTmofrHXwsauoc7PJI/view) | System demonstration |
+### 🔬 Model Development Resources
 
-### 📚 Published Research
+| Component | Resource Link |
+|-----------|---------------|
+| **Model Training** | [Google Colab Notebook](https://colab.research.google.com/drive/1M0wQzKp4csT_8AdALjxguuQWsFwiwEd5) |
+| **Modified Mask R-CNN** | [Drive Folder](https://drive.google.com/drive/folders/1XDxeZSUcTN2f_LPRuG75htul-dfDo0A8) |
+| **Detection Model** | [Trained Weights](https://drive.google.com/drive/folders/1n7wocurRnNVZ1vsERi6Vi6C46YQ_lsLY) |
+| **Input Dataset** | [Sample Data](https://drive.google.com/drive/folders/1c8x9ZgkU7kaPnERfAIK2uPLjntAHyROI) |
+| **Demo Video** | [System Recording](https://drive.google.com/file/d/178Qp-PEZ_xv9tHlTmofrHXwsauoc7PJI/view) |
+
+### 📖 Published Research
 - **Journal**: Jurnal Inovasi Pendidikan dan Inovasi (JIPI)
-- **Paper**: ["Food Detection and Calorie Estimation using Mask R-CNN with Telegram Integration"](https://jurnal.stkippgritulungagung.ac.id/index.php/jipi/article/view/6972)
+- **Paper**: [*"Food Detection and Calorie Estimation using Mask R-CNN with Telegram Integration"*](https://jurnal.stkippgritulungagung.ac.id/index.php/jipi/article/view/6972)
+- **Contributions**: Novel approach to dietary monitoring using instance segmentation
+
+## 🎯 Technical Innovations
+
+### 🏆 Key Contributions
+1. **Modified Mask R-CNN** for food-specific instance segmentation
+2. **Portion-to-calorie mapping algorithm** from 2D images  
+3. **Real-time Telegram integration** for practical deployment
+4. **Multi-class food recognition** with high accuracy
 
 ## 👨‍💻 Author
 
 **Raihan Aldy**
-- 🎓 Researcher & Machine Learning Engineer
-- 🐙 [GitHub](https://github.com/RaihanAldy)
+- 🎓 Researcher & Machine Learning Engineer  
+- 🐙 [GitHub Profile](https://github.com/RaihanAldy)
+- 📧 Contact via GitHub for collaborations
+
+## 📄 License
+
+This project is licensed for academic and research purposes.
 
 ---
 
 <div align="center">
 
-**⭐ Star this repository if you find it helpful!**
+### ⭐ **If this project helps you, please give it a star!**
+
+**Bridging AI research with practical healthcare applications**
 
 </div>
+
+## 🔗 Quick Links
+- [📁 Full Repository](https://github.com/RaihanAldy/Foodkcal)
+- [📄 Research Paper](https://jurnal.stkippgritulungagung.ac.id/index.php/jipi/article/view/6972)
+- [🎬 Video Demo](https://drive.google.com/file/d/178Qp-PEZ_xv9tHlTmofrHXwsauoc7PJI/view)
+
+---
