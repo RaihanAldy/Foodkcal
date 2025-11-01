@@ -1,4 +1,6 @@
 
+# 🍎 FoodKcal - Food Detection & Calorie Estimation
+
 <div align="center">
 
 ![Machine Learning](https://img.shields.io/badge/🤖-Machine%20Learning-FF6B6B?style=for-the-badge)
@@ -231,4 +233,5 @@ If you use this work in your research, please cite:
 
 *"Bridging AI research with practical healthcare applications"*
 
-</div> ```
+</div>
+```
