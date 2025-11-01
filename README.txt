@@ -1,4 +1,3 @@
-🍎 FoodKcal - Food Detection & Calorie Estimation
 
 <div align="center">
 
