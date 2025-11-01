@@ -1,6 +1,5 @@
 
-# 🍎 FoodKcal - Food Detection & Calorie Estimation
-
+## 🍎 FoodKcal - Food Detection & Calorie Estimation
 <div align="center">
 
 ![Machine Learning](https://img.shields.io/badge/🤖-Machine%20Learning-FF6B6B?style=for-the-badge)
