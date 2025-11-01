@@ -1,7 +1,5 @@
-
-## 🍎 FoodKcal - Food Detection & Calorie Estimation
+# 🍎 FoodKcal - Food Detection & Calorie Estimation
 <div align="center">
-
 ![Machine Learning](https://img.shields.io/badge/🤖-Machine%20Learning-FF6B6B?style=for-the-badge)
 ![Mask R-CNN](https://img.shields.io/badge/🧠-Mask%20R--CNN-8A2BE2?style=for-the-badge)
 ![Telegram Bot](https://img.shields.io/badge/🤖-Telegram%20Bot-26A5E4?style=for-the-badge)
@@ -13,7 +11,6 @@
 [![Demo Video](https://img.shields.io/badge/🎬-Demo_Video-FF0000?style=for-the-badge&logo=youtube)](https://drive.google.com/file/d/178Qp-PEZ_xv9tHlTmofrHXwsauoc7PJI/view)
 
 *"Revolutionizing dietary monitoring through computer vision and AI"*
-
 </div>
 
 ## 🎯 Abstract
